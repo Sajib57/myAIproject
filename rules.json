@@ -1,0 +1,32 @@
+{
+  "rice": [
+    {
+      "symptoms": ["yellow leaves", "stunted growth"],
+      "soil_type": "clay",
+      "disease": "Nitrogen Deficiency",
+      "recommendation": "Apply Urea fertilizer (50kg/acre) and ensure proper irrigation."
+    },
+    {
+      "symptoms": ["brown spots", "leaf drying"],
+      "soil_type": "loam",
+      "disease": "Brown Spot Fungus",
+      "recommendation": "Spray Mancozeb fungicide (2g/L water) and balance Potash usage."
+    }
+  ],
+  "wheat": [
+    {
+      "symptoms": ["yellow rust", "powdery lesions"],
+      "soil_type": "loam",
+      "disease": "Stripe Rust",
+      "recommendation": "Apply Propiconazole 25% EC fungicide immediately."
+    }
+  ],
+  "potato": [
+    {
+      "symptoms": ["black spots", "rotting leaves"],
+      "soil_type": "sandy",
+      "disease": "Late Blight",
+      "recommendation": "Use Copper Oxychloride or Ridomil Gold and avoid over-watering."
+    }
+  ]
+}
