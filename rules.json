@@ -1,32 +1,32 @@
 {
   "rice": [
     {
+      "disease": "Nitrogen Deficiency",
       "symptoms": ["yellow leaves", "stunted growth"],
       "soil_type": "clay",
-      "disease": "Nitrogen Deficiency",
-      "recommendation": "Apply Urea fertilizer (50kg/acre) and ensure proper irrigation."
-    },
-    {
-      "symptoms": ["brown spots", "leaf drying"],
-      "soil_type": "loam",
-      "disease": "Brown Spot Fungus",
-      "recommendation": "Spray Mancozeb fungicide (2g/L water) and balance Potash usage."
-    }
-  ],
-  "wheat": [
-    {
-      "symptoms": ["yellow rust", "powdery lesions"],
-      "soil_type": "loam",
-      "disease": "Stripe Rust",
-      "recommendation": "Apply Propiconazole 25% EC fungicide immediately."
+      "ideal_ph_range": [5.5, 6.5],
+      "min_moisture": 40,
+      "recommendation": "Apply Urea fertilizer (50kg/acre) and ensure proper irrigation.",
+      "market_forecast": {
+        "demand": "High",
+        "avg_price_per_ton_usd": 420,
+        "estimated_roi": "25-30%"
+      }
     }
   ],
   "potato": [
     {
-      "symptoms": ["black spots", "rotting leaves"],
-      "soil_type": "sandy",
       "disease": "Late Blight",
-      "recommendation": "Use Copper Oxychloride or Ridomil Gold and avoid over-watering."
+      "symptoms": ["dark spots", "white mold"],
+      "soil_type": "loam",
+      "ideal_ph_range": [5.0, 6.0],
+      "min_moisture": 50,
+      "recommendation": "Spray copper-based fungicide and avoid overhead watering.",
+      "market_forecast": {
+        "demand": "Moderate",
+        "avg_price_per_ton_usd": 280,
+        "estimated_roi": "15-20%"
+      }
     }
   ]
 }
