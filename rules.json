@@ -92,7 +92,7 @@
       "min_moisture": 50,
       "recommendation": "Soak seeds in warm water before sowing and spray Copper-hydroxide.",
       "market_demand": "High",
-      "price_trend": "Falling"
+      "price_trend": "Rising"
     }
   ],
   "chili": [
@@ -101,8 +101,8 @@
       "symptoms": ["brown spot", "stunted growth"],
       "soil_type": "sandy",
       "ideal_ph_range": [6.0, 7.0],
-      "ideal_temp_range": [20, 32],
-      "season": "Summer",
+      "ideal_temp_range": [10, 25],
+      "season": "Winter",
       "min_moisture": 35,
       "recommendation": "Spray Imidacloprid for vectors and Azoxystrobin for fungal spot.",
       "market_demand": "Very High",
